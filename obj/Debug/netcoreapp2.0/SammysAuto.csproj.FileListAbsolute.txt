@@ -1,0 +1,12 @@
+/Users/djordjemilojevic/Projects/SammysAuto/bin/Debug/netcoreapp2.0/SammysAuto.deps.json
+/Users/djordjemilojevic/Projects/SammysAuto/bin/Debug/netcoreapp2.0/SammysAuto.runtimeconfig.json
+/Users/djordjemilojevic/Projects/SammysAuto/bin/Debug/netcoreapp2.0/SammysAuto.runtimeconfig.dev.json
+/Users/djordjemilojevic/Projects/SammysAuto/bin/Debug/netcoreapp2.0/SammysAuto.dll
+/Users/djordjemilojevic/Projects/SammysAuto/bin/Debug/netcoreapp2.0/SammysAuto.pdb
+/Users/djordjemilojevic/Projects/SammysAuto/obj/Debug/netcoreapp2.0/SammysAuto.csprojResolveAssemblyReference.cache
+/Users/djordjemilojevic/Projects/SammysAuto/obj/Debug/netcoreapp2.0/SammysAuto.csproj.CoreCompileInputs.cache
+/Users/djordjemilojevic/Projects/SammysAuto/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/djordjemilojevic/Projects/SammysAuto/obj/Debug/netcoreapp2.0/SammysAuto.AssemblyInfoInputs.cache
+/Users/djordjemilojevic/Projects/SammysAuto/obj/Debug/netcoreapp2.0/SammysAuto.AssemblyInfo.cs
+/Users/djordjemilojevic/Projects/SammysAuto/obj/Debug/netcoreapp2.0/SammysAuto.dll
+/Users/djordjemilojevic/Projects/SammysAuto/obj/Debug/netcoreapp2.0/SammysAuto.pdb
