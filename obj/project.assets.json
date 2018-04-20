@@ -13134,13 +13134,13 @@
       "projectName": "SammysAuto",
       "projectPath": "/Users/djordjemilojevic/Projects/SammysAuto/SammysAuto.csproj",
       "packagesPath": "/Users/djordjemilojevic/.nuget/packages/",
-      "outputPath": "/Users/djordjemilojevic/Projects/SammysAuto/obj",
+      "outputPath": "/Users/djordjemilojevic/Projects/SammysAuto/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/djordjemilojevic/.config/NuGet/NuGet.Config"
+        "/Users/djordjemilojevic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13162,25 +13162,24 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.5"
+            "version": "[2.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.2"
+            "version": "[2.0.2, )"
           }
         },
         "imports": [
