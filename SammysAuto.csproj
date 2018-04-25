@@ -20,5 +20,7 @@
 
   <ItemGroup>
     <Folder Include="Views\ServiceTypes\" />
+    <Folder Include="Utility\" />
+    <Folder Include="Views\Users\" />
   </ItemGroup>
 </Project>
