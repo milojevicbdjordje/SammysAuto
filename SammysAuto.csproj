@@ -22,5 +22,7 @@
     <Folder Include="Views\ServiceTypes\" />
     <Folder Include="Utility\" />
     <Folder Include="Views\Users\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Views\Cars\" />
   </ItemGroup>
 </Project>

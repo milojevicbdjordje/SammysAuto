@@ -11,9 +11,10 @@ using System;
 namespace SammysAuto.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180425092706_AddCarToDb")]
+    partial class AddCarToDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -189,37 +190,6 @@ namespace SammysAuto.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("SammysAuto.Models.Car", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Color");
-
-                    b.Property<string>("Make")
-                        .IsRequired();
-
-                    b.Property<double>("Miles");
-
-                    b.Property<string>("Model")
-                        .IsRequired();
-
-                    b.Property<string>("Style");
-
-                    b.Property<string>("UserId");
-
-                    b.Property<string>("VIN")
-                        .IsRequired();
-
-                    b.Property<int>("Year");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Cars");
-                });
-
             modelBuilder.Entity("SammysAuto.Models.ServiceType", b =>
                 {
                     b.Property<int>("Id")
@@ -230,7 +200,7 @@ namespace SammysAuto.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ServiceTypes");
+                    b.ToTable("ServiceType");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -276,13 +246,6 @@ namespace SammysAuto.Data.Migrations
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("SammysAuto.Models.Car", b =>
-                {
-                    b.HasOne("SammysAuto.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany()
-                        .HasForeignKey("UserId");
                 });
 #pragma warning restore 612, 618
         }
